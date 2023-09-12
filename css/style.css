@@ -73,7 +73,7 @@ header .title {
 
 .list-section {
   background-color: #fff;
-  padding: 50px;
+  padding: 40px;
 }
 
 .list {
@@ -91,7 +91,6 @@ ul li {
 }
 .arrow {
   font-size: 40px;
-  vertical-align: top;
   vertical-align: middle;
 }
 li h2 {
