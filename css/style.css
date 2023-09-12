@@ -44,7 +44,7 @@ header .title {
 .button-section {
   background-color: #fff;
   padding: 20px;
-  padding-left: 30px;
+  padding-left: 50px;
   margin-bottom: 5px;
 }
 
@@ -68,4 +68,27 @@ header .title {
 }
 /* /Button sectiom */
 
+/* List section */
+
+.list-section {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.list {
+  list-style: none;
+  color: #444851;
+  font-weight: 700;
+  padding: 30px;
+}
+
+.arrow {
+  font-size: 40px;
+  vertical-align: top;
+  vertical-align: middle;
+}
+li h2 {
+  vertical-align: middle;
+}
+/* /List section */
 /* /MAIN */
