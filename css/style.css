@@ -18,6 +18,7 @@ body {
 .container {
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 /* /GENERAL SETTINGS */
 
@@ -40,7 +41,7 @@ header .title {
 
 /* MAIN */
 
-/* Button sectiom */
+/* Button section */
 .button-section {
   background-color: #fff;
   padding: 20px;
@@ -66,7 +67,7 @@ header .title {
   border: 1px solid #c5cbd0;
   margin-left: 5px;
 }
-/* /Button sectiom */
+/* /Button section */
 
 /* List section */
 
@@ -85,7 +86,9 @@ header .title {
   padding: 30px;
   font-size: 26px;
 }
-
+ul li {
+  padding-bottom: 20px;
+}
 .arrow {
   font-size: 40px;
   vertical-align: top;
@@ -95,17 +98,25 @@ li h2 {
   vertical-align: middle;
 }
 
-.check {
-  color: #6fc6b2;
+.symbol {
   font-size: 20px;
-
   display: inline-block;
   width: 25px;
   height: 25px;
   line-height: 25px;
   text-align: center;
   border-radius: 50%;
+}
+
+.check {
+  color: #6fc6b2;
   border: 2px solid #6fc6b2;
+}
+
+.cross {
+  color: #ea483e;
+  border: 2px solid #ea483e;
+  font-size: 18px;
 }
 
 .list-text {
@@ -119,14 +130,35 @@ li h2 {
   color: #fff;
   display: inline-block;
   font-size: 12px;
+  font-weight: 300;
 
   background-color: #45abea;
   border-radius: 25px;
-  height: 40px;
-  width: 70px;
-  line-height: 40px;
+  height: 30px;
+  width: 80px;
+  line-height: 30px;
   text-align: center;
   vertical-align: baseline;
+}
+
+.violet {
+  background-color: #9c72e4;
+}
+
+.light-green {
+  background-color: #64c0a9;
+}
+
+.orange {
+  background-color: #f29e33;
+}
+
+.pink {
+  background-color: #d863a1;
+}
+
+.light-yellow {
+  background-color: #b0c926;
 }
 /* /List section */
 /* /MAIN */
