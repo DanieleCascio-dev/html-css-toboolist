@@ -77,9 +77,13 @@ header .title {
 
 .list {
   list-style: none;
+}
+
+.main-list {
   color: #444851;
   font-weight: 700;
   padding: 30px;
+  font-size: 26px;
 }
 
 .arrow {
@@ -89,6 +93,40 @@ header .title {
 }
 li h2 {
   vertical-align: middle;
+}
+
+.check {
+  color: #6fc6b2;
+  font-size: 20px;
+
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #6fc6b2;
+}
+
+.list-text {
+  color: #4a4e57;
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.label {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+
+  background-color: #45abea;
+  border-radius: 25px;
+  height: 40px;
+  width: 70px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: baseline;
 }
 /* /List section */
 /* /MAIN */
