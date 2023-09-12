@@ -6,10 +6,31 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f6f8f9;
+  font-family: "Roboto", sans-serif;
+}
+
+.m-btm {
+  margin-bottom: 15px;
+}
 /* /GENERAL SETTINGS */
 
 /* HEADER */
+header {
+  padding: 20px;
+  background-color: #fff;
+}
 
+.logo-img {
+  vertical-align: middle;
+}
+header .title {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 40px;
+}
 /* /HEADER */
 
 /* MAIN */
